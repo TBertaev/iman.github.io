@@ -93,12 +93,13 @@ header {
 .text_info h1 {
     padding: 10px;
     font-weight: bold;
-    color: #6a9b0a;
+    color: #000000;
+    font-size: 58px;
 }
 .text_info p {
-    text-shadow: 2px 2px 3px #000;
-    font-size: 18px;
+    font-size: 25px;
     padding: 20px;
+    color: #000000;
 }
 .text_info i {
     font-size: 25px;
