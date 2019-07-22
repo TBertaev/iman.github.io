@@ -329,8 +329,9 @@ p.text-testimonial {
     align-items: flex-start;
 }
 .table i{
-    padding-right: 15px;
+    padding-left: 15px;
     color: red;
+    transform: scale(-1, 1);
 }
 .social {
     display: grid;
