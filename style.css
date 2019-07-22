@@ -15,10 +15,21 @@ body {
 header {
     height: 750px;
     background-size: cover;
-    background-blend-mode: screen;
-    background-color: #303030;
+    background-position: center center;
     width: 100%;
-    background-image: url('img/Flowers/_HumP2hmsf4.jpg');
+    background-image: url('img/background-header.jpg');
+    position: relative;
+}
+header::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    background-image: url('img/wave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*========Navigation======*/
 .navigation {
@@ -83,7 +94,7 @@ header {
 }
 .text_info {
     display: grid;
-    margin-top: 280px;
+    margin-top: 180px;
     justify-content: center;
     justify-items: center;
     color: white;
@@ -130,15 +141,50 @@ h1 {
 }
 .item-collection{
     display: flex;
-    flex-direction: column;
     box-shadow: 0px 0px 2px 0px #000;
     justify-content: space-between;
     align-items: center;
     height: 300px;
-}
-.item-collection img {
     width: 100%;
-    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item-collection:nth-child(1){
+    background-image: url('img/Flowers/UXTxAtcwz0Q.jpg');
+}
+.item-collection:nth-child(2){
+    background-image: url('img/Flowers/Uttf20Bz8nc.jpg');
+}
+.item-collection:nth-child(3){
+    background-image: url('img/Flowers/_HumP2hmsf4.jpg');
+}
+.item-collection:nth-child(4){
+    background-image: url('img/Flowers/fgRDXSS_Qj4.jpg');
+}
+.item-collection:nth-child(5){
+    background-image: url('img/Flowers/hqE31QGENJ4.jpg');
+}
+.item-collection:nth-child(6){
+    background-image: url('img/Flowers/hw40bDahm08.jpg');
+}
+.item-collection:nth-child(7){
+    background-image: url('img/Flowers/oyBti2PRTM8.jpg');
+}
+.item-collection:nth-child(8){
+    background-image: url('img/Flowers/wQKrN_azU-M.jpg');
+}
+.item-collection:nth-child(9){
+    background-image: url('img/Flowers/xihXVppKeMY.jpg');
+}
+.item-collection:nth-child(10){
+    background-image: url('img/Flowers/3_PuNyymGlU.jpg');
+}
+.item-collection:nth-child(11){
+    background-image: url('img/Flowers/72V_5kobEmI.jpg');
+}
+.item-collection:nth-child(12){
+    background-image: url('img/Flowers/7luyVWV2src.jpg');
 }
 /*============Special===========*/
 .special_ {
