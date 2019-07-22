@@ -102,9 +102,8 @@ header::before {
 }
 .text_info h1 {
     padding: 10px;
-    text-shadow: 2px 2px 3px #000;
-    font-family: 'Shrikhand', cursive;
     font-weight: bold;
+    color: #6a9b0a;
 }
 .text_info p {
     text-shadow: 2px 2px 3px #000;
