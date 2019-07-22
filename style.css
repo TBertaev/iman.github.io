@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 header {
     height: 750px;
@@ -300,7 +301,6 @@ p.text-testimonial {
     align-items: flex-start;
 }
 .adress__ h1 {
-    color: green;
     padding: 20px 0;
 }
 .adress__ p {
@@ -310,6 +310,12 @@ p.text-testimonial {
 .adress__ li {
     list-style: none;
     padding: 10px 0;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .table {
     display: flex;
@@ -335,9 +341,8 @@ p.text-testimonial {
 .fa-vk:hover{color:#5d84ae;}
 .fa-twitter:hover{color:#00acee;}
 .fa-whatsapp:hover{color:#50b154;}
-.from h1 {
+.form h1 {
     padding: 20px;
-    color: green;
 }
 .form p {
     padding: 10px;
@@ -393,9 +398,6 @@ footer span {
     grid-template-columns: 75px 40px;
     justify-content: center;
 }
-@media (max-width: 1090px) {
-
-}
 @media (max-width: 750px) {
     .collection {
         display: grid;
@@ -428,5 +430,14 @@ footer span {
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
+    }
+    .adress__ {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+    #form {
+        display: none;
     }
 }
