@@ -302,7 +302,7 @@ p.text-testimonial {
 .adress_ {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     width: 100%;
 }
 .adress__ {
@@ -405,12 +405,7 @@ footer span {
     justify-content: center;
 }
 @media (max-width: 1090px) {
-    .collection {
-        display: grid;
-        grid-gap:  10px;
-        grid-template-columns: 300px 300px;
-        grid-template-rows: 300px 300px 300px;
-    }
+
 }
 @media (max-width: 750px) {
     .collection {
